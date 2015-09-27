@@ -1,0 +1,489 @@
+a:hover {
+  text-decoration: none;
+}
+
+a:hover .thumbnail img {
+  opacity: 0.5;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #000;
+}
+
+.logo {
+  width: 60px;
+  margin: 15px 0;
+}
+
+
+/* Main */
+html, body { 
+  height: 100%; 
+    background-color: #1c1c1e;
+} 
+
+.main {
+  padding-top: 40px;
+  
+  
+  min-height: 100%; 
+  height: auto !important;
+  height: 100%; 
+  margin: 0 auto 0;
+  vertical-align: bottom;
+}
+
+
+
+
+/* Thumbnail */
+.thumbnail {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  height: 350px;
+  display:inline-block;
+  float:left;
+  padding:50px;
+}
+
+.title,
+.artist,
+.imageclass{
+  color: #fff;
+  text-align: center;
+}
+
+.title,
+.album-title {
+  margin: 5px 0 3px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.artist,
+.album-artist {
+  color: #c3c3c3;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+/* Track */
+.show {
+  margin: 20px 0;
+}
+
+
+.album-title,
+.album-artist,
+.track .name,
+.track .minutes {
+  color: #fff;
+}
+
+.album-title {
+  font-size: 30px;
+}
+
+.album-artist {
+  margin-bottom: 25px;
+  font-size:14px;
+}
+
+.track {
+  margin-top: 10px;
+  display:inline-block;
+  width:100%;
+  font-weight:100;
+
+ 
+
+}
+
+.track:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.track .name {
+  font-size: 22px;
+  float:left;
+  font-weight: 300;
+
+}
+
+.track .minutes {
+   font-size: 22px;
+  text-align:right;
+    font-weight: 300;
+
+}
+
+.track:last-child {
+  margin-bottom: 80px;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0 35px 0;
+}
+
+.footer h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer a {
+  color: #aaa;
+  font-size: 13px;
+  display: inline-block;
+  padding: 5px 0;
+}
+/* line 1, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 5, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+a:hover .thumbnail img {
+  opacity: 0.5;
+}
+
+/* line 10, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+/* line 15, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.header {
+  background-color: #000;
+}
+
+/* line 19, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.logo {
+  width: 60px;
+  margin: 15px 0;
+}
+
+/* Main */
+/* line 26, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+html, body {
+  height: 100%;
+  background-color: #1c1c1e;
+}
+
+/* line 31, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.main {
+  padding-top: 40px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto 0;
+  vertical-align: bottom;
+}
+
+/* Thumbnail */
+/* line 46, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.thumbnail {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  height: 350px;
+  display: inline-block;
+  float: left;
+  padding: 50px;
+}
+
+/* line 57, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.title,
+.artist,
+.imageclass {
+  color: #fff;
+  text-align: center;
+}
+
+/* line 64, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.title,
+.album-title {
+  margin: 5px 0 3px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* line 71, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.artist,
+.album-artist {
+  color: #c3c3c3;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+/* Track */
+/* line 79, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.show {
+  margin: 20px 0;
+}
+
+/* line 84, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.album-title,
+.album-artist,
+.track .name,
+.track .minutes {
+  color: #fff;
+}
+
+/* line 91, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.album-title {
+  font-size: 30px;
+}
+
+/* line 95, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.album-artist {
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+/* line 100, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.track {
+  margin-top: 10px;
+  display: inline-block;
+  width: 100%;
+  font-weight: 100;
+}
+
+/* line 110, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.track:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* line 114, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.track .name {
+  font-size: 22px;
+  float: left;
+  font-weight: 300;
+}
+
+/* line 121, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.track .minutes {
+  font-size: 22px;
+  text-align: right;
+  font-weight: 300;
+}
+
+/* line 128, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.track:last-child {
+  margin-bottom: 80px;
+}
+
+/* Footer */
+/* line 133, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0 35px 0;
+}
+
+/* line 139, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.footer h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+/* line 144, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* line 149, /Users/kaitpicco/Desktop/Rails/bass-music/app/assets/stylesheets/main.css.scss */
+.footer a {
+  color: #aaa;
+  font-size: 13px;
+  display: inline-block;
+  padding: 5px 0;
+}
+a:hover {
+  text-decoration: none;
+}
+
+a:hover .thumbnail img {
+  opacity: 0.5;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #000;
+}
+
+.logo {
+  width: 60px;
+  margin: 15px 0;
+}
+
+
+/* Main */
+html, body { 
+  height: 100%; 
+    background-color: #1c1c1e;
+} 
+
+.main {
+  padding-top: 40px;
+  
+  
+  min-height: 100%; 
+  height: auto !important;
+  height: 100%; 
+  margin: 0 auto 0;
+  vertical-align: bottom;
+}
+
+
+
+
+/* Thumbnail */
+.thumbnail {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  height: 350px;
+  display:inline-block;
+  float:left;
+  padding:50px;
+}
+
+.title,
+.artist,
+.imageclass{
+  color: #fff;
+  text-align: center;
+}
+
+.title,
+.album-title {
+  margin: 5px 0 3px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.artist,
+.album-artist {
+  color: #c3c3c3;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+/* Track */
+.show {
+  margin: 20px 0;
+}
+
+
+.album-title,
+.album-artist,
+.track .name,
+.track .minutes {
+  color: #fff;
+}
+
+.album-title {
+  font-size: 30px;
+}
+
+.album-artist {
+  margin-bottom: 25px;
+  font-size:14px;
+}
+
+.track {
+  margin-top: 10px;
+  display:inline-block;
+  width:100%;
+  font-weight:100;
+
+ 
+
+}
+
+.track:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.track .name {
+  font-size: 22px;
+  float:left;
+  font-weight: 300;
+
+}
+
+.track .minutes {
+   font-size: 22px;
+  text-align:right;
+    font-weight: 300;
+
+}
+
+.track:last-child {
+  margin-bottom: 80px;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0 35px 0;
+}
+
+.footer h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer a {
+  color: #aaa;
+  font-size: 13px;
+  display: inline-block;
+  padding: 5px 0;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

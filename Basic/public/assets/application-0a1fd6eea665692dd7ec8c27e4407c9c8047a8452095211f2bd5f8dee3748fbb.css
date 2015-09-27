@@ -1,0 +1,68 @@
+/* General */
+/* line 8, /Users/kaitpicco/MySite/app/assets/stylesheets/pages.css.scss */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* line 13, /Users/kaitpicco/MySite/app/assets/stylesheets/pages.css.scss */
+body {
+  background-image: url("http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/bg-static.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* line 20, /Users/kaitpicco/MySite/app/assets/stylesheets/pages.css.scss */
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* Main */
+/* line 26, /Users/kaitpicco/MySite/app/assets/stylesheets/pages.css.scss */
+.main {
+  color: #fff;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+/* line 33, /Users/kaitpicco/MySite/app/assets/stylesheets/pages.css.scss */
+.main h1 {
+  font-size: 80px;
+  font-weight: 300;
+}
+
+/* line 38, /Users/kaitpicco/MySite/app/assets/stylesheets/pages.css.scss */
+.main p {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 43, /Users/kaitpicco/MySite/app/assets/stylesheets/pages.css.scss */
+  body {
+    background-size: auto 100%;
+  }
+
+  /* line 46, /Users/kaitpicco/MySite/app/assets/stylesheets/pages.css.scss */
+  .container {
+    width: 100%;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

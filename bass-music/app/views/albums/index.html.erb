@@ -1,0 +1,21 @@
+<div class="row">
+ <div class="col-md-3">
+       	<% @albums.each do |t| %>
+      <div class="thumbnail">
+     
+        
+       
+        <div class="caption">
+             <div class="imageclass">
+          <%= link_to (image_tag (t.cover)), destination_path(t) %>  
+        </div>
+          <h3 class="title"><%= t.title %>  </h3>
+          <p class="artist"><%= t.artist %>  </p>
+         
+        </div>
+      </div>
+    <% end %>
+  </div>
+  
+  
+</div>
